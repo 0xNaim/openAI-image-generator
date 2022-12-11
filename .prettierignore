@@ -1,0 +1,11 @@
+.next
+node_modules
+.cache
+build
+public
+.eslintignore
+.gitignore
+.husky/commit-msg
+.husky/pre-commit
+.prettierignore
+yarn.lock

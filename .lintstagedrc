@@ -1,0 +1,3 @@
+{
+  "pages": ["yarn format", "yarn lint"]
+}

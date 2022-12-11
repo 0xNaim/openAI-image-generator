@@ -1,0 +1,28 @@
+{
+  "extends": ["next", "airbnb", "airbnb/hooks", "eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-props-no-spreading": 0,
+    "indent": ["error", 2],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
+  },
+  "plugins": ["react", "react-hooks"]
+}
