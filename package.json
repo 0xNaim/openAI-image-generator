@@ -12,7 +12,6 @@
     "format": "prettier --write --ignore-path .prettierignore .",
     "install:lint": "yarn add -D husky prettier eslint eslint-config-next eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y @babel/core @babel/eslint-parser lint-staged @commitlint/cli @commitlint/config-conventional"
   },
-  "proxy": "http://localhost:3000",
   "dependencies": {
     "next": "13.0.4",
     "openai": "^3.1.0",
