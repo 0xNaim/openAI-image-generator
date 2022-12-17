@@ -6,5 +6,5 @@
 
 <!-- PROJECT DESCRIPTIONS -->
 <p>
-  It will generate an image based on described text. I am just exploring OpenAI.
+  It will generate an image based on described text.
 </p>
